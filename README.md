@@ -54,7 +54,7 @@ Donate me if you want :)
 #### ADVANTAGES 📍
 | Advantages | Check |
 |--------|--------|
-| **Fast Response** |[✔️](https://github.com/RavensVenix) |
+| **Fast** |[✔️](https://github.com/RavensVenix) |
 | **No Internet** |[✔️](https://github.com/RavensVenix) |
 | **Simple** |[✔️](https://github.com/RavensVenix) |
 ---------
