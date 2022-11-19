@@ -61,7 +61,7 @@ Donate me if you want :)
 
 ## `SETTINGS`
 
-- [CHANGE PASSWORD](https://github.com/RavensVenix/elainav5/blob/master/settings.js#L58)
+- [CHANGE PASSWORD](https://github.com/RavensVenix/Free-RDP/blob/main/start.bat#L6)
 
 # Install Manually 👇
 Copy your ngrok auth token -> go to Settings Repo -> Secrets -> Actions -> New repository secret
