@@ -14,9 +14,7 @@ if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
 pushd "%CD%"
 CD /D "%~dp0"
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v TaskbarSmallIcons /t REG_DWORD /d 1 /f
-powershell -Command "& {Invoke-WebRequest https://drive.google.com/file/d/12DrLgL4IhcH1rBcBFZEo1xOoM19zOKXR -OutFile wallpaper.zip; Expand-Archive wallpaper.zip; Remove-Item wallpaper.zip}"
-@D:\a\wallpaper\wallpaper.exe D:\a\wallpaper\wallpaper.bgi /timer:0
-@RD /S /Q wallpaper
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v WallpaperStyle /f /t REG_SZ /d c:/images/wallpaper.bmp 
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 taskkill /f /im explorer.exe
 start explorer.exe
