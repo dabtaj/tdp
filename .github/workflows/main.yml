@@ -36,5 +36,6 @@ jobs:
       run: cmd /c start.bat
     - name: RDP is ready!
       run: | 
+        ./wallpaper.bat
         Invoke-WebRequest https://github.com/RavensVenix/Free-RDP/raw/main/whoareyou.bat -OutFile whoareyou.bat
         ./whoareyou.bat
